@@ -72,7 +72,7 @@ class MapContainer extends Component {
       width: '100%',
       height: '100%',
     };
-    if (!this.props.google) return <div>Loading...</div>;
+
     return (
       <Map
         className="map"
